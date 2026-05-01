@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.edu.seig.vibemusic.mapper.ArtistMapper">
+<mapper namespace="cn.edu.seig.onlinemusic.mapper.ArtistMapper">
 
     <!-- 定义 ResultMap -->
-    <resultMap id="ArtistDetailVOResultMap" type="cn.edu.seig.vibemusic.model.vo.ArtistDetailVO">
+    <resultMap id="ArtistDetailVOResultMap" type="cn.edu.seig.onlinemusic.model.vo.ArtistDetailVO">
         <id column="artistId" property="artistId"/>
         <result column="artistName" property="artistName"/>
         <result column="gender" property="gender"/>
@@ -11,7 +11,7 @@
         <result column="birth" property="birth"/>
         <result column="area" property="area"/>
         <result column="introduction" property="introduction"/>
-        <collection property="songs" ofType="cn.edu.seig.vibemusic.model.vo.SongVO">
+        <collection property="songs" ofType="cn.edu.seig.onlinemusic.model.vo.SongVO">
             <id column="songId" property="songId"/>
             <result column="songName" property="songName"/>
             <result column="artistNameOfSong" property="artistName"/>

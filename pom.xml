@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.edu.seig</groupId>
-    <artifactId>vibe-music-server</artifactId>
+    <artifactId>online-music-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>vibe-music-server</name>
-    <description>vibe-music-server</description>
+    <name>online-music-server</name>
+    <description>online-music-server</description>
     <url/>
     <licenses>
         <license/>

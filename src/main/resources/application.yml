@@ -2,7 +2,7 @@ spring:
   # 配置数据源
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/vibe_music?useUnicode=true&characterEncoding=utf-8&useSSL=false # 修改你的 MySQL 地址和库名
+    url: jdbc:mysql://localhost:3306/online_music?useUnicode=true&characterEncoding=utf-8&useSSL=false # 修改你的 MySQL 地址和库名
     username: root # 修改你的 MySQL 用户名
     password: 194615 # 修改你的 MySQL 密码
     type: com.alibaba.druid.pool.DruidDataSource # 配置连接池
@@ -80,4 +80,4 @@ minio:
   endpoint: http://127.0.0.1:9000 # 修改你的 MinIO 端点
   accessKey: minioadmin # 修改你的 MinIO Access Key
   secretKey: minioadmin # 修改你的 MinIO Secret Key
-  bucket: vibe-music-data # 确认 Bucket 名称与你创建的一致
+  bucket: online-music-data # 确认 Bucket 名称与你创建的一致
